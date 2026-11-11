@@ -1,0 +1,1954 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Tadika Tunas Ria Bestari | Mendidik Denga Kasih Sayang & Keceriaan</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    
+    <!-- SEO & Open Graph Meta Tags -->
+    <meta name="description" content="Tadika Tunas Ria Bestari menawarkan pendidikan awal kanak-kanak yang ceria, interaktif dan berkualiti tinggi dengan pendekatan pembelajaran berasaskan bermain.">
+    <meta name="keywords" content="tadika, prasekolah, pendidikan awal kanak-kanak, tadika tunas ria bestari, pendaftaran tadika">
+    <meta name="author" content="Tadika Tunas Ria Bestari">
+    <meta property="og:title" content="Tadika Tunas Ria Bestari - Tempat Pertumbuhan Ceria Anak Anda">
+    <meta property="og:description" content="Sertai kami di Tadika Tunas Ria Bestari. Persekitaran mesra, selamat dan mendidik potensi anak anda secara menyeluruh.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Tadika Tunas Ria Bestari",
+      "description": "Pendidikan awal kanak-kanak yang moden, ceria, dan mesra keluarga.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "No 12, Jalan Bestari 3/1, Taman Bestari",
+        "addressLocality": "Petaling Jaya",
+        "addressRegion": "Selangor",
+        "postalCode": "47300",
+        "addressCountry": "MY"
+      },
+      "telephone": "+60123456789",
+      "openingHours": "Mo-Fr 07:30-18:00"
+    }
+    </script>
+
+    <!-- Font & Styles -->
+    <style>
+        /* CSS Variables & Design Tokens */
+        :root {
+            --color-soft-pink: #F8C8D8;
+            --color-pastel-pink: #FCE4EC;
+            --color-blush-pink: #F4AFC4;
+            --color-deep-pink: #E883A0;
+            --color-warm-white: #FFFDFB;
+            --color-soft-cream: #FFF4E8;
+            --color-dark-brown: #59434B;
+            --color-text-muted: #7A666D;
+            --color-accent-peach: #FFC9A9;
+            --color-accent-yellow: #FFE8A3;
+            --color-accent-mint: #C5EBAA;
+            --color-white: #FFFFFF;
+            --shadow-soft: 0 10px 30px rgba(89, 67, 75, 0.08);
+            --shadow-card: 0 5px 15px rgba(244, 175, 196, 0.2);
+            --shadow-hover: 0 15px 35px rgba(232, 131, 160, 0.25);
+            --radius-sm: 12px;
+            --radius-md: 20px;
+            --radius-lg: 32px;
+            --radius-full: 9999px;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --font-main: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        }
+
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--color-warm-white);
+            color: var(--color-dark-brown);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: var(--transition);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+
+        button, input, select, textarea {
+            font-family: inherit;
+            font-size: inherit;
+            outline: none;
+            border: none;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        /* Helper Utility Classes */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section-padding {
+            padding: 80px 0;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .badge-tag {
+            display: inline-block;
+            padding: 6px 16px;
+            background-color: var(--color-pastel-pink);
+            color: var(--color-deep-pink);
+            border-radius: var(--radius-full);
+            font-weight: 700;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .section-title {
+            font-size: 2.25rem;
+            font-weight: 800;
+            color: var(--color-dark-brown);
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        .section-desc {
+            font-size: 1.1rem;
+            color: var(--color-text-muted);
+            max-width: 650px;
+            margin: 0 auto 50px auto;
+        }
+
+        /* Buttons Style */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 14px 28px;
+            border-radius: var(--radius-full);
+            font-weight: 700;
+            font-size: 1rem;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .btn-primary {
+            background-color: var(--color-deep-pink);
+            color: var(--color-white);
+        }
+
+        .btn-primary:hover {
+            background-color: #d66d8b;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .btn-secondary {
+            background-color: var(--color-accent-peach);
+            color: var(--color-dark-brown);
+        }
+
+        .btn-secondary:hover {
+            background-color: #f7b791;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-card);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--color-deep-pink);
+            color: var(--color-deep-pink);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--color-deep-pink);
+            color: var(--color-white);
+            transform: translateY(-3px);
+        }
+
+        /* Decorative Elements */
+        .cloud-bg {
+            position: relative;
+        }
+        .cloud-bg::before {
+            content: '';
+            position: absolute;
+            top: -30px;
+            left: 0;
+            width: 100%;
+            height: 30px;
+            background: radial-gradient(circle, var(--color-warm-white) 70%, transparent 70%);
+            background-size: 60px 60px;
+        }
+
+        /* Header & Navigation */
+        .header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 253, 251, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+            transition: var(--transition);
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 800;
+            font-size: 1.35rem;
+            color: var(--color-dark-brown);
+        }
+
+        .logo-icon {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, var(--color-soft-pink), var(--color-deep-pink));
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-white);
+            font-size: 1.5rem;
+            box-shadow: var(--shadow-card);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .nav-link {
+            font-weight: 600;
+            color: var(--color-dark-brown);
+            position: relative;
+            padding: 5px 0;
+            font-size: 0.95rem;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 3px;
+            background-color: var(--color-deep-pink);
+            border-radius: 2px;
+            transition: var(--transition);
+        }
+
+        .nav-link:hover::after,
+        .nav-link.active::after {
+            width: 100%;
+        }
+
+        .nav-link.active {
+            color: var(--color-deep-pink);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            padding: 5px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--color-dark-brown);
+            border-radius: 3px;
+            transition: var(--transition);
+        }
+
+        /* Page Display System (SPA Routing) */
+        .page-view {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.4s ease-in-out;
+        }
+
+        .page-view.active {
+            display: block;
+            opacity: 1;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0 100px 0;
+            background: linear-gradient(180deg, var(--color-pastel-pink) 0%, var(--color-warm-white) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .hero-headline {
+            font-size: 3rem;
+            font-weight: 900;
+            line-height: 1.2;
+            color: var(--color-dark-brown);
+            margin-bottom: 20px;
+        }
+
+        .hero-headline span {
+            color: var(--color-deep-pink);
+            position: relative;
+        }
+
+        .hero-subheadline {
+            font-size: 1.15rem;
+            color: var(--color-text-muted);
+            margin-bottom: 35px;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .hero-image-wrapper {
+            position: relative;
+        }
+
+        .hero-img-main {
+            width: 100%;
+            height: 420px;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-hover);
+            border: 8px solid var(--color-white);
+        }
+
+        .hero-floating-card {
+            position: absolute;
+            bottom: -20px;
+            left: -20px;
+            background: var(--color-white);
+            padding: 15px 25px;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-soft);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .hero-floating-icon {
+            font-size: 2rem;
+        }
+
+        /* Cards & Grids */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 40px;
+        }
+
+        .feature-card {
+            background-color: var(--color-white);
+            padding: 35px 25px;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-card);
+            transition: var(--transition);
+            border: 1px solid rgba(248, 200, 216, 0.3);
+            text-align: center;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-hover);
+            border-color: var(--color-blush-pink);
+        }
+
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            background-color: var(--color-pastel-pink);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin: 0 auto 20px auto;
+        }
+
+        .feature-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--color-dark-brown);
+        }
+
+        /* Program Cards */
+        .program-card {
+            background-color: var(--color-white);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .program-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .program-img {
+            height: 200px;
+            width: 100%;
+        }
+
+        .program-body {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .program-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .program-desc {
+            color: var(--color-text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        /* Gallery Filter & Grid */
+        .gallery-filters {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 35px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 10px 22px;
+            border-radius: var(--radius-full);
+            background-color: var(--color-soft-cream);
+            color: var(--color-dark-brown);
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background-color: var(--color-deep-pink);
+            color: var(--color-white);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            height: 240px;
+            cursor: pointer;
+            box-shadow: var(--shadow-card);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.08);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(89, 67, 75, 0.7), transparent);
+            opacity: 0;
+            display: flex;
+            align-items: flex-end;
+            padding: 20px;
+            color: var(--color-white);
+            transition: var(--transition);
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+
+        /* Blog & News */
+        .news-card {
+            background: var(--color-white);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+            transition: var(--transition);
+        }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .news-img {
+            height: 200px;
+            width: 100%;
+        }
+
+        .news-content {
+            padding: 25px;
+        }
+
+        .news-date {
+            font-size: 0.85rem;
+            color: var(--color-deep-pink);
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .news-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .news-excerpt {
+            color: var(--color-text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        /* FAQ Accordion */
+        .faq-accordion {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background-color: var(--color-white);
+            border-radius: var(--radius-sm);
+            margin-bottom: 15px;
+            box-shadow: var(--shadow-card);
+            overflow: hidden;
+        }
+
+        .faq-header {
+            width: 100%;
+            padding: 20px 25px;
+            text-align: left;
+            background: none;
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--color-dark-brown);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-header::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--color-deep-pink);
+            transition: var(--transition);
+        }
+
+        .faq-item.active .faq-header::after {
+            content: '−';
+        }
+
+        .faq-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            padding: 0 25px;
+            color: var(--color-text-muted);
+        }
+
+        .faq-item.active .faq-body {
+            padding: 0 25px 20px 25px;
+        }
+
+        /* Form Styles */
+        .form-container {
+            background-color: var(--color-white);
+            padding: 40px;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-hover);
+            border: 2px solid var(--color-pastel-pink);
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group.full-width {
+            grid-column: span 2;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--color-dark-brown);
+            font-size: 0.95rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 18px;
+            border-radius: var(--radius-sm);
+            border: 1.5px solid #E2D5D9;
+            background-color: var(--color-warm-white);
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            border-color: var(--color-deep-pink);
+            background-color: var(--color-white);
+            box-shadow: 0 0 0 4px rgba(232, 131, 160, 0.15);
+        }
+
+        .error-msg {
+            color: #d9534f;
+            font-size: 0.825rem;
+            margin-top: 5px;
+            display: none;
+        }
+
+        .form-group.error .error-msg {
+            display: block;
+        }
+
+        .form-group.error .form-control {
+            border-color: #d9534f;
+        }
+
+        .alert-success {
+            padding: 15px 20px;
+            background-color: #d4edda;
+            color: #155724;
+            border-radius: var(--radius-sm);
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        /* Lightbox Modal */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            background-color: rgba(0,0,0,0.85);
+            z-index: 2000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .lightbox.active {
+            display: flex;
+        }
+
+        .lightbox-content {
+            max-width: 900px;
+            max-height: 80vh;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            color: white;
+            font-size: 2.5rem;
+            cursor: pointer;
+            z-index: 2001;
+        }
+
+        /* Floating WhatsApp & Back to Top */
+        .floating-btn-container {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 999;
+        }
+
+        .float-btn {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            box-shadow: var(--shadow-hover);
+            transition: var(--transition);
+            font-size: 1.5rem;
+        }
+
+        .btn-whatsapp {
+            background-color: #25D366;
+        }
+
+        .btn-whatsapp:hover {
+            transform: scale(1.1);
+            background-color: #20ba5a;
+        }
+
+        .btn-top {
+            background-color: var(--color-dark-brown);
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .btn-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .btn-top:hover {
+            transform: translateY(-3px);
+            background-color: var(--color-deep-pink);
+        }
+
+        /* Breadcrumbs */
+        .breadcrumbs {
+            padding: 15px 0;
+            background-color: var(--color-pastel-pink);
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+        }
+
+        .breadcrumbs a {
+            color: var(--color-deep-pink);
+            font-weight: 600;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--color-dark-brown);
+            color: var(--color-warm-white);
+            padding: 70px 0 30px 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+
+        .footer-logo {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--color-white);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .footer-desc {
+            color: #C0B2B7;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .footer-title {
+            color: var(--color-white);
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: #C0B2B7;
+            font-size: 0.95rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--color-soft-pink);
+            padding-left: 5px;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 25px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #A08E94;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 992px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .hero-cta {
+                justify-content: center;
+            }
+            .hero-img-main {
+                height: 320px;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: var(--color-warm-white);
+                flex-direction: column;
+                padding: 20px 0;
+                gap: 15px;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+                display: none;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-group.full-width {
+                grid-column: span 1;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .hero-headline {
+                font-size: 2.2rem;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Reduced Motion Accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px; /* Jarak antara logo dan teks */
+            text-decoration: none;
+        }
+
+        .logo-img {
+            height: 40px; /* Sesuaikan tinggi logo sesuai kebutuhan */
+            width: auto;   /* Menjaga proporsi gambar */
+            object-fit: contain;
+        }
+
+        .logo span {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #333; /* Sesuaikan warna teks dengan tema website kamu */
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px; /* Jarak antara logo dan teks */
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+        }
+
+        .footer-logo-img {
+            height: 35px; /* Sesuaikan saiz ketinggian logo */
+            width: auto;   /* Mengekalkan nisbah asal gambar */
+            object-fit: contain;
+        }
+
+        .footer-desc {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #ffffff; /* Sesuaikan warna teks mengikut tema footer anda */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="#home" class="logo">
+                <img src="logo.png" alt="TUNAS RIA BESTARI Logo" class="logo-img">
+                <span>TUNAS RIA BESTARI</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-links" id="nav-menu">
+                    <li><a href="#home" class="nav-link active">Laman Utama</a></li>
+                    <li><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+                    <li><a href="#program" class="nav-link">Program</a></li>
+                    <li><a href="#aktiviti" class="nav-link">Aktiviti</a></li>
+                    <li><a href="#galeri" class="nav-link">Galeri</a></li>
+                    <li><a href="#berita" class="nav-link">Berita</a></li>
+                    <li><a href="#hubungi" class="nav-link">Hubungi Kami</a></li>
+                </ul>
+            </nav>
+
+            <div style="display: flex; gap: 10px; align-items: center;">
+                <a href="#hubungi" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem;">Daftar Sekarang</a>
+                <button class="hamburger" id="hamburger-btn" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumbs Component -->
+    <div class="breadcrumbs" id="breadcrumb-container" style="display: none;">
+        <div class="container">
+            <a href="#home">Laman Utama</a> &gt; <span id="breadcrumb-current">Halaman</span>
+        </div>
+    </div>
+
+    <!-- MAIN SPA CONTAINER -->
+    <main id="app-content">
+
+        <!-- ==========================================
+             PAGE 1: LAMAN UTAMA (HOME)
+        ========================================== -->
+        <section id="page-home" class="page-view active">
+            
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="container hero-grid">
+                    <div>
+                        <span class="badge-tag">Pendidikan Awal Kanak-Kanak Terbaik</span>
+                        <h1 class="hero-headline">Setiap Anak Ada Potensi, Kami Bantu Mereka <span>Bersinar!</span></h1>
+                        <p class="hero-subheadline">Menyediakan persekitaran pembelajaran awal yang ceria, selamat dan penuh kasih sayang untuk merangsang minda serta kreativiti si cilik anda.</p>
+                        <div class="hero-cta">
+                            <a href="#tentang" class="btn btn-primary">Kenali Tadika Kami</a>
+                            <a href="#hubungi" class="btn btn-secondary">Pertanyaan Pendaftaran</a>
+                        </div>
+                    </div>
+                    <div class="hero-image-wrapper">
+                        <img src="mockup.jpeg" alt="Kanak-kanak belajar ceria" class="hero-img-main" loading="lazy">
+                        <div class="hero-floating-card">
+                            <div class="hero-floating-icon">🎨</div>
+                            <div>
+                                <strong style="display: block; font-size: 1rem;">100% Interaktif</strong>
+                                <span style="font-size: 0.85rem; color: var(--color-text-muted);">Belajar Sambil Bermain</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pengenalan Tadika Section -->
+            <section class="section-padding">
+                <div class="container grid-2" style="align-items: center;">
+                    <div>
+                        <img src="images.jpg" alt="Suasana Kelas Tadika" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-card);" loading="lazy">
+                    </div>
+                    <div>
+                        <span class="badge-tag">Selamat Datang</span>
+                        <h2 class="section-title">Rakan Setia Pertumbuhan Awal Anak Anda</h2>
+                        <p style="color: var(--color-text-muted); margin-bottom: 20px;">
+                            Di <strong>Tadika Tunas Ria Bestari</strong>, kami percaya bahawa tahun-tahun awal adalah asas pembentukan sahsiah dan kepintaran kanak-kanak. Kami menawarkan kurikulum seimbang yang menggabungkan kemahiran akademik asas, perkembangan emosi dan kreativiti.
+                        </p>
+                        <ul style="margin-bottom: 30px;">
+                            <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">🌸 Guru-guru berdedikasi & terlatih</li>
+                            <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">🌸 Kemudahan bilik darjah yang selesa & selamat</li>
+                            <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">🌸 Modul pembelajaran mengikut tahap perkembangan</li>
+                        </ul>
+                        <a href="#tentang" class="btn btn-outline">Baca Lebih Lanjut</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mengapa Pilih Kami Section -->
+            <section class="section-padding" style="background-color: var(--color-pastel-pink);">
+                <div class="container">
+                    <div class="text-center">
+                        <span class="badge-tag">Keutamaan Kami</span>
+                        <h2 class="section-title">Mengapa Ibu Bapa Memilih Kami?</h2>
+                        <p class="section-desc">Keutamaan kami adalah menyediakan persekitaran terbaik untuk si cilik berkembang secara holistik.</p>
+                    </div>
+
+                    <div class="grid-3">
+                        <div class="feature-card">
+                            <div class="feature-icon">🏫</div>
+                            <h3 class="feature-title">Persekitaran Ceria</h3>
+                            <p style="color: var(--color-text-muted); font-size: 0.95rem;">Bilik darjah mesra kanak-kanak yang bersih, selamat dan penuh dengan alat bantuan mengajar warna-warni.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🧩</div>
+                            <h3 class="feature-title">Belajar Sambil Bermain</h3>
+                            <p style="color: var(--color-text-muted); font-size: 0.95rem;">Kaedah pembelajaran berasaskan aktiviti berasaskan kognitif untuk mengelakkan rasa bosan.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🎨</div>
+                            <h3 class="feature-title">Aktiviti Kreatif</h3>
+                            <p style="color: var(--color-text-muted); font-size: 0.95rem;">Mengasah bakat seni, muzik dan kraf tangan untuk merangsang koordinasi dan imaginasi.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">❤️</div>
+                            <h3 class="feature-title">Perhatian Individu</h3>
+                            <p style="color: var(--color-text-muted); font-size: 0.95rem;">Nisbah guru dan murid yang terhad untuk memastikan setiap anak mendapat bimbingan fokus.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🤝</div>
+                            <h3 class="feature-title">Kemahiran Sosial</h3>
+                            <p style="color: var(--color-text-muted); font-size: 0.95rem;">Memupuk adab, kerjasama berkumpulan dan keyakinan diri semasa berinteraksi.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🥗</div>
+                            <h3 class="feature-title">Pemakanan Sihat</h3>
+                            <p style="color: var(--color-text-muted); font-size: 0.95rem;">Hidangan berkhasiat disediakan harian untuk menyokong pertumbuhan fizikal dan minda.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Preview Program Section -->
+            <section class="section-padding">
+                <div class="container">
+                    <div class="text-center">
+                        <span class="badge-tag">Program Utama</span>
+                        <h2 class="section-title">Program Pembelajaran Kami</h2>
+                        <p class="section-desc">Dirancang khas mengikut peringkat umur bagi memastikan proses pembelajaran berkesan.</p>
+                    </div>
+
+                    <div class="grid-3">
+                        <div class="program-card">
+                            <img src="pic 1.jpeg" alt="Program Membaca" class="program-img" loading="lazy">
+                            <div class="program-body">
+                                <h3 class="program-title">Asas Membaca & Literasi</h3>
+                                <p class="program-desc">Pengenalan huruf, fonik dan kemahiran membaca Bahasa Melayu & Bahasa Inggeris secara berperingkat.</p>
+                                <a href="#program" class="btn btn-outline" style="width: 100%;">Lihat Butiran</a>
+                            </div>
+                        </div>
+
+                        <div class="program-card">
+                            <img src="pic 2.jpeg" alt="Program Matematik" class="program-img" loading="lazy">
+                            <div class="program-body">
+                                <h3 class="program-title">Matematik Awal & Logik</h3>
+                                <p class="program-desc">Memahami konsep nombor, bentuk, saiz dan penyelesaian masalah mudah melalui alat bantu visual.</p>
+                                <a href="#program" class="btn btn-outline" style="width: 100%;">Lihat Butiran</a>
+                            </div>
+                        </div>
+
+                        <div class="program-card">
+                            <img src="pic 3.jpeg" alt="Seni dan Seni Kraf" class="program-img" loading="lazy">
+                            <div class="program-body">
+                                <h3 class="program-title">Seni, Kraf & Kreativiti</h3>
+                                <p class="program-desc">Meneroka warna, melukis dan hasil kraf tangan untuk menguatkan kemahiran motor halus.</p>
+                                <a href="#program" class="btn btn-outline" style="width: 100%;">Lihat Butiran</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Preview Galeri Section -->
+            <section class="section-padding" style="background-color: var(--color-soft-cream);">
+                <div class="container">
+                    <div class="text-center">
+                        <span class="badge-tag">Momen Ceria</span>
+                        <h2 class="section-title">Sekilas Suasana Di Tadika</h2>
+                        <p class="section-desc">Lihat kebahagiaan dan keceriaan anak-anak ketika menjalani aktiviti harian.</p>
+                    </div>
+
+                    <div class="gallery-grid">
+                        <div class="gallery-item" onclick="openLightbox('galeri 1.jpeg')">
+                            <img src="galeri 1.jpeg" alt="Belajar Bersama" loading="lazy">
+                            <div class="gallery-overlay"><span>Aktiviti Berkumpulan</span></div>
+                        </div>
+                        <div class="gallery-item" onclick="openLightbox('galeri 2.jpg')">
+                            <img src="galeri 2.jpg" alt="Main Luar" loading="lazy">
+                            <div class="gallery-overlay"><span>Permainan Luar</span></div>
+                        </div>
+                        <div class="gallery-item" onclick="openLightbox('galeri 3.jpeg')">
+                            <img src="galeri 3.jpeg" alt="Mewarna" loading="lazy">
+                            <div class="gallery-overlay"><span>Seni Mewarna</span></div>
+                        </div>
+                        <div class="gallery-item" onclick="openLightbox('galeri 4.jpeg')">
+                            <img src="galeri 4.jpeg" alt="Membaca Buku" loading="lazy">
+                            <div class="gallery-overlay"><span>Masa Membaca</span></div>
+                        </div>
+                    </div>
+                    <div class="text-center" style="margin-top: 35px;">
+                        <a href="#galeri" class="btn btn-primary">Lihat Galeri Penuh</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimoni Demo Section -->
+            <section class="section-padding">
+                <div class="container">
+                    <div class="text-center">
+                        <span class="badge-tag">Kata Ibu Bapa</span>
+                        <h2 class="section-title">Apa Kata Mereka?</h2>
+                        <p class="section-desc">*Contoh maklum balas daripada ibu bapa pelajar kami (Kandungan Demo).</p>
+                    </div>
+
+                    <div class="grid-3">
+                        <div class="feature-card" style="text-align: left;">
+                            <p style="font-style: italic; color: var(--color-text-muted); margin-bottom: 20px;">"Anak saya kini lebih berkeyakinan dan sangat teruja untuk ke tadika setiap pagi. Cikgu-cikgu sangat mesra dan penyayang!"</p>
+                            <strong>Puan Sarah</strong>
+                            <span style="display: block; font-size: 0.85rem; color: var(--color-deep-pink);">Ibu kepada Adam (5 tahun)</span>
+                        </div>
+                        <div class="feature-card" style="text-align: left;">
+                            <p style="font-style: italic; color: var(--color-text-muted); margin-bottom: 20px;">"Perkembangan membaca dan kemahiran sosial anak saya meningkat pesat dalam masa 6 bulan sahaja. Terima kasih Tunas Ria Bestari!"</p>
+                            <strong>Encik Hafiz</strong>
+                            <span style="display: block; font-size: 0.85rem; color: var(--color-deep-pink);">Bapa kepada Aisyah (6 tahun)</span>
+                        </div>
+                        <div class="feature-card" style="text-align: left;">
+                            <p style="font-style: italic; color: var(--color-text-muted); margin-bottom: 20px;">"Persekitaran tadika yang sangat bersih, selamat dan moden. Saya rasa sangat tenang meletakkan anak saya di sini."</p>
+                            <strong>Puan Tan</strong>
+                            <span style="display: block; font-size: 0.85rem; color: var(--color-deep-pink);">Ibu kepada Lucas (4 tahun)</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Banner -->
+            <section class="section-padding" style="background: linear-gradient(135deg, var(--color-blush-pink), var(--color-deep-pink)); color: white; text-align: center;">
+                <div class="container">
+                    <h2 style="font-size: 2.2rem; margin-bottom: 15px; color: white;">Mulakan Langkah Pertama Perjalanan Pembelajaran Anak Anda!</h2>
+                    <p style="max-width: 600px; margin: 0 auto 30px auto; font-size: 1.1rem; opacity: 0.9;">Tempat adalah terhad bagi setiap sesi persekolahan. Hubungi kami sekarang untuk sebarang pertanyaan atau lawatan tadika.</p>
+                    <a href="#hubungi" class="btn btn-secondary" style="background-color: var(--color-white); color: var(--color-dark-brown);">Hubungi Kami Sekarang</a>
+                </div>
+            </section>
+
+        </section>
+
+        <!-- ==========================================
+             PAGE 2: TENTANG KAMI
+        ========================================== -->
+        <section id="page-tentang" class="page-view">
+            <section class="section-padding">
+                <div class="container">
+                    <div class="text-center">
+                        <span class="badge-tag">Mengenai Tadika</span>
+                        <h2 class="section-title">Pendidikan Awal Penuh Kasih Sayang</h2>
+                        <p class="section-desc">Membina asas yang kukuh untuk masa depan anak anda melalui pendekatan holistik dan mesra kanak-kanak.</p>
+                    </div>
+
+                    <div class="grid-2" style="align-items: center; margin-bottom: 60px;">
+                        <div>
+                            <h3 style="font-size: 1.8rem; margin-bottom: 15px; color: var(--color-dark-brown);">Latar Belakang Kami</h3>
+                            <p style="color: var(--color-text-muted); margin-bottom: 15px;">
+                                Ditubuhkan dengan matlamat untuk memberikan pengalaman persekolahan awal yang bermakna, <strong>Tadika Tunas Ria Bestari</strong> terus komited dalam menyediakan suasana pembelajaran yang konduktif dan ceria.
+                            </p>
+                            <p style="color: var(--color-text-muted);">
+                                Kami percaya bahawa setiap kanak-kanak dilahirkan dengan keunikan dan potensi tersendiri. Bimbingan awal yang betul dapat menyemai minat belajar seumur hidup.
+                            </p>
+                        </div>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=80" alt="Guru dan Murid Tadika" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-card);" loading="lazy">
+                        </div>
+                    </div>
+
+                    <!-- Visi & Misi Cards -->
+                    <div class="grid-2" style="margin-bottom: 60px;">
+                        <div class="feature-card" style="background-color: var(--color-pastel-pink); text-align: left;">
+                            <div class="feature-icon">🌟</div>
+                            <h3 class="feature-title">Visi Kami</h3>
+                            <p style="color: var(--color-text-muted);">Menjadi pusat pendidikan awal kanak-kanak pilihan utama yang melahirkan generasi cilik berilmu, berakhlak mulia, berkeyakinan tinggi dan kreatif.</p>
+                        </div>
+                        <div class="feature-card" style="background-color: var(--color-soft-cream); text-align: left;">
+                            <div class="feature-icon">🎯</div>
+                            <h3 class="feature-title">Misi Kami</h3>
+                            <p style="color: var(--color-text-muted);">Menyediakan kurikulum awal yang komprehensif, persekitaran yang selamat serta sokongan penuh kasih sayang untuk membantu kanak-kanak berkembang sepenuhnya.</p>
+                        </div>
+                    </div>
+
+                    <!-- Nilai Utama -->
+                    <div class="text-center">
+                        <h3 class="section-title" style="font-size: 1.8rem;">Nilai-Nilai Utama</h3>
+                        <div class="grid-3" style="margin-top: 30px;">
+                            <div class="feature-card">
+                                <h4>Kasih Sayang</h4>
+                                <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-top: 8px;">Mendidik dengan sabar dan kehangatan keibubapaan.</p>
+                            </div>
+                            <div class="feature-card">
+                                <h4>Kreativiti</h4>
+                                <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-top: 8px;">Mendorong penerokaan idea baharu secara bebas.</p>
+                            </div>
+                            <div class="feature-card">
+                                <h4>Integriti & Adab</h4>
+                                <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-top: 8px;">Memupuk nilai-nilai murni dan rasa hormat sejak kecil.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ==========================================
+             PAGE 3: PROGRAM PEMBELAJARAN
+        ========================================== -->
+        <section id="page-program" class="page-view">
+            <section class="section-padding">
+                <div class="container">
+                    <div class="text-center">
+                        <span class="badge-tag">Kurikulum & Modul</span>
+                        <h2 class="section-title">Program Pembelajaran Pilihan</h2>
+                        <p class="section-desc">Modul-modul disusun mengikut kesesuaian tahap umur bagi merangsang potensi minda dan kemahiran motor.</p>
+                    </div>
+
+                    <div class="grid-3">
+                        <div class="program-card">
+                            <img src="knk 1.jpg" alt="Program Membaca" class="program-img" loading="lazy">
+                            <div class="program-body">
+                                <h3 class="program-title">Asas Membaca & Literasi</h3>
+                                <p class="program-desc">Fokus kepada pengenalan huruf, kemahiran fonik, dan kelancaran membaca dalam Bahasa Melayu & Inggeris.</p>
+                                <ul style="font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 15px;">
+                                    <li>✔ Pengenalan bunyi fonik</li>
+                                    <li>✔ Kemahiran mengeja & membaca</li>
+                                    <li>✔ Tulisan kemas & motor halus</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="program-card">
+                            <img src="knk 2.jpg" alt="Program Awal Matematik" class="program-img" loading="lazy">
+                            <div class="program-body">
+                                <h3 class="program-title">Awal Matematik & Sains</h3>
+                                <p class="program-desc">Memahami asas nombor, saiz, susunan, pola dan eksperimen sains mudah yang menarik.</p>
+                                <ul style="font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 15px;">
+                                    <li>✔ Mengenal & membilang nombor</li>
+                                    <li>✔ Operasi tambah & tolak asas</li>
+                                    <li>✔ Penerokaan alam semula jadi</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="program-card">
+                            <img src="knk 3.jpeg" alt="Program Seni Kreatif" class="program-img" loading="lazy">
+                            <div class="program-body">
+                                <h3 class="program-title">Kreativiti & Seni Kraf</h3>
+                                <p class="program-desc">Aktiviti melukis, mewarna, menggunting dan menghasilkan seni kraf tangan unik.</p>
+                                <ul style="font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 15px;">
+                                    <li>✔ Pengenalan warna & tekstur</li>
+                                    <li>✔ Peningkatan koordinasi tangan-mata</li>
+                                    <li>✔ Ekspresi emosi melalui seni</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="program-card">
+                            <img src="knk 4.jpeg" alt="Program Fizikal" class="program-img" loading="lazy">
+                            <div class="program-body">
+                                <h3 class="program-title">Perkembangan Fizikal & Motor</h3>
+                                <p class="program-desc">Aktiviti senaman, permainan padang dan senamrobik ringkas untuk kesihatan fizikal murid.</p>
+                                <ul style="font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 15px;">
+                                    <li>✔ Latihan kemahiran motor kasar</li>
+                                    <li>✔ Keseimbangan & ketangkasan</li>
+                                    <li>✔ Amalan gaya hidup sihat</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="program-card">
+                            <img src="knk 5.jpeg" alt="Program Kemahiran Sosial" class="program-img" loading="lazy">
+                            <div class="program-body">
+                                <h3 class="program-title">Sosial & Emosi (EQ)</h3>
+                                <p class="program-desc">Memupuk emosi yang stabil, empati, kebolehan berkongsi dan pengurusan diri seharian.</p>
+                                <ul style="font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 15px;">
+                                    <li>✔ Pengurusan emosi kendiri</li>
+                                    <li>✔ Kerjasama & adab pergaulan</li>
+                                    <li>✔ Pembentukan sikap berdikari</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="program-card">
+                            <img src="knk 6.jpeg" alt="Program Pembelajaran Berasaskan Permainan" class="program-img" loading="lazy">
+                            <div class="program-body">
+                                <h3 class="program-title">Play-Based Learning</h3>
+                                <p class="program-desc">Sesi bermain terancang menggunakan teka-teki, binaan blok dan permainan peranan (role-play).</p>
+                                <ul style="font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 15px;">
+                                    <li>✔ Merangsang kemahiran pemikiran kritis</li>
+                                    <li>✔ Bermain peranan & imaginasi</li>
+                                    <li>✔ Pembelajaran tanpa tekanan</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ==========================================
+             PAGE 4: AKTIVITI TADIKA
+        ========================================== -->
+        <section id="page-aktiviti" class="page-view">
+            <section class="section-padding">
+                <div class="container">
+                    <div class="text-center">
+                        <span class="badge-tag">Gaya Pembelajaran</span>
+                        <h2 class="section-title">Aktiviti Harian & Khas</h2>
+                        <p class="section-desc">Pelbagai aktiviti disusun secara kreatif bagi memastikan setiap hari di tadika dipenuhi kegembiraan.</p>
+                    </div>
+
+                    <div class="grid-2">
+                        <div class="feature-card" style="text-align: left; display: flex; gap: 20px; align-items: center;">
+                            <div style="font-size: 2.5rem;">📖</div>
+                            <div>
+                                <h3 style="font-size: 1.2rem; margin-bottom: 5px;">Sesi Sudut Bacaan</h3>
+                                <p style="font-size: 0.9rem; color: var(--color-text-muted);">Aktiviti bercerita interaktif bersama guru bagi meningkatkan minat membaca.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-card" style="text-align: left; display: flex; gap: 20px; align-items: center;">
+                            <div style="font-size: 2.5rem;">🎭</div>
+                            <div>
+                                <h3 style="font-size: 1.2rem; margin-bottom: 5px;">Sambutan Hari Istimewa</h3>
+                                <p style="font-size: 0.9rem; color: var(--color-text-muted);">Sambutan Hari Kanak-Kanak, Hari Kemerdekaan, dan majlis kebudayaan.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-card" style="text-align: left; display: flex; gap: 20px; align-items: center;">
+                            <div style="font-size: 2.5rem;">🌱</div>
+                            <div>
+                                <h3 style="font-size: 1.2rem; margin-bottom: 5px;">Aktiviti Berkebun Cilik</h3>
+                                <p style="font-size: 0.9rem; color: var(--color-text-muted);">Mengenali tumbuh-tumbuhan dan menyiram pokok di taman mini tadika.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-card" style="text-align: left; display: flex; gap: 20px; align-items: center;">
+                            <div style="font-size: 2.5rem;">🎨</div>
+                            <div>
+                                <h3 style="font-size: 1.2rem; margin-bottom: 5px;">Bengkel Kraf & Seni</h3>
+                                <p style="font-size: 0.9rem; color: var(--color-text-muted);">Eksperimen warna dan penghasilan kraf menggunakan bahan kitar semula.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Jadual Aktiviti Contoh -->
+                    <div style="margin-top: 60px; background-color: var(--color-white); padding: 35px; border-radius: var(--radius-lg); box-shadow: var(--shadow-card);">
+                        <h3 class="text-center" style="margin-bottom: 25px; color: var(--color-dark-brown);">Contoh Jadual Rutin Harian</h3>
+                        <div style="overflow-x: auto;">
+                            <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+                                <thead>
+                                    <tr style="background-color: var(--color-pastel-pink); color: var(--color-dark-brown);">
+                                        <th style="padding: 12px 15px; border-radius: 8px 0 0 8px;">Masa</th>
+                                        <th style="padding: 12px 15px;">Aktiviti</th>
+                                        <th style="padding: 12px 15px; border-radius: 0 8px 8px 0;">Fokus</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr style="border-bottom: 1px solid #eee;">
+                                        <td style="padding: 12px 15px; font-weight: 600;">08:00 AM - 08:30 AM</td>
+                                        <td style="padding: 12px 15px;">Ketibaan & Sesi Morning Circle</td>
+                                        <td style="padding: 12px 15px;">Sosial & Kebersihan</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #eee;">
+                                        <td style="padding: 12px 15px; font-weight: 600;">08:30 AM - 10:00 AM</td>
+                                        <td style="padding: 12px 15px;">Pembelajaran Akademik (Literasi / Awal Matematik)</td>
+                                        <td style="padding: 12px 15px;">Kognitif</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #eee;">
+                                        <td style="padding: 12px 15px; font-weight: 600;">10:00 AM - 10:30 AM</td>
+                                        <td style="padding: 12px 15px;">Rehat & Kudapan Berkhasiat</td>
+                                        <td style="padding: 12px 15px;">Pemakanan & Adab Makan</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #eee;">
+                                        <td style="padding: 12px 15px; font-weight: 600;">10:30 AM - 11:30 AM</td>
+                                        <td style="padding: 12px 15px;">Seni Kreatif / Aktiviti Fizikal Luar</td>
+                                        <td style="padding: 12px 15px;">Motor Halus & Kasar</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 12px 15px; font-weight: 600;">11:30 AM - 12:00 PM</td>
+                                        <td style="padding: 12px 15px;">Refleksi Harian, Kemas Barang & Bersedia Pulang</td>
+                                        <td style="padding: 12px 15px;">Berdikari</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ==========================================
+             PAGE 5: GALERI
+        ========================================== -->
+        <section id="page-galeri" class="page-view">
+            <section class="section-padding">
+                <div class="container">
+                    <div class="text-center">
+                        <span class="badge-tag">Koleksi Gambar</span>
+                        <h2 class="section-title">Galeri Aktiviti & Persekitaran</h2>
+                        <p class="section-desc">Koleksi kenangan indah aktiviti murid-murid di Tadika Tunas Ria Bestari.</p>
+                    </div>
+
+                    <!-- Category Filters -->
+                    <div class="gallery-filters">
+                        <button class="filter-btn active" onclick="filterGallery('all')">Semua</button>
+                        <button class="filter-btn" onclick="filterGallery('pembelajaran')">Pembelajaran</button>
+                        <button class="filter-btn" onclick="filterGallery('aktiviti')">Aktiviti</button>
+                        <button class="filter-btn" onclick="filterGallery('persekitaran')">Persekitaran</button>
+                    </div>
+
+                    <div class="gallery-grid" id="main-gallery-grid">
+                        <div class="gallery-item filter-item pembelajaran" onclick="openLightbox('gambar 1.jpeg')">
+                            <img src="gambar 1.jpeg" alt="Belajar" loading="lazy">
+                            <div class="gallery-overlay"><span>Sesi Pembelajaran Kumpulan</span></div>
+                        </div>
+
+                        <div class="gallery-item filter-item aktiviti" onclick="openLightbox('gambar 2.jpg')">
+                            <img src="gambar 2.jpg" alt="Permainan Luar" loading="lazy">
+                            <div class="gallery-overlay"><span>Aktiviti Dalam Kelas</span></div>
+                        </div>
+
+                        <div class="gallery-item filter-item pembelajaran" onclick="openLightbox('gambar 3.jpg')">
+                            <img src="gambar 3.jpg" alt="Mewarna Seni" loading="lazy">
+                            <div class="gallery-overlay"><span>Solat</span></div>
+                        </div>
+
+                        <div class="gallery-item filter-item persekitaran" onclick="openLightbox('gambar 4.jpeg')">
+                            <img src="gambar 4.jpeg" alt="Bilik Darjah" loading="lazy">
+                            <div class="gallery-overlay"><span>Suasana Kelas</span></div>
+                        </div>
+
+                        <div class="gallery-item filter-item aktiviti" onclick="openLightbox('gambar 5.jpeg')">
+                            <img src="gambar 5.jpeg" alt="Masa Membaca" loading="lazy">
+                            <div class="gallery-overlay"><span>Sudut Bacaan Ceria</span></div>
+                        </div>
+
+                        <div class="gallery-item filter-item persekitaran" onclick="openLightbox('gambar 6.jpeg')">
+                            <img src="gambar 6.jpeg" alt="Ruang Bermain" loading="lazy">
+                            <div class="gallery-overlay"><span>Mengaji</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ==========================================
+             PAGE 6: BERITA DAN PENGUMUMAN
+        ========================================== -->
+        <section id="page-berita" class="page-view">
+            <section class="section-padding">
+                <div class="container">
+                    <div class="text-center">
+                        <span class="badge-tag">Berita & Buletin</span>
+                        <h2 class="section-title">Pengumuman Terkini</h2>
+                        <p class="section-desc">Ikuti maklumat dan berita terkini mengenai aktiviti dan takwim tadika kami.</p>
+                    </div>
+
+                    <div class="grid-3" id="news-grid">
+                        <div class="news-card">
+                            <img src="menu 1.jpg" alt="Pendaftaran Baharu" class="news-img" loading="lazy">
+                            <div class="news-content">
+                                <div class="news-date">15 OKTOBER 2026</div>
+                                <h3 class="news-title">Pendaftaran Sesi Persekolahan Baharu Kini Dibuka!</h3>
+                                <p class="news-excerpt">Pendaftaran untuk sesi persekolahan akan datang kini dibuka rasmi. Tempat adalah terhad...</p>
+                                <button class="btn btn-outline" style="width: 100%;" onclick="openNewsModal('Pendaftaran Sesi Persekolahan Baharu Kini Dibuka!', '15 OKTOBER 2026', 'Pendaftaran untuk sesi persekolahan akan datang kini dibuka secara rasmi bagi kanak-kanak berumur 4 hingga 6 tahun. Kami menggalakkan ibu bapa untuk membuat pendaftaran awal bagi memastikan tempat untuk anak anda. Lawatan ke tadika juga boleh diatur mengikut temujanji.')">Baca Artikel</button>
+                            </div>
+                        </div>
+
+                        <div class="news-card">
+                            <img src="menu 2.jpeg" alt="Hari Seni" class="news-img" loading="lazy">
+                            <div class="news-content">
+                                <div class="news-date">02 OKTOBER 2026</div>
+                                <h3 class="news-title">Program Kreativiti & Seni Hari Kanak-Kanak</h3>
+                                <p class="news-excerpt">Sempena Hari Kanak-Kanak, tadika telah menganjurkan pameran seni kraf tangan hasil kerja murid...</p>
+                                <button class="btn btn-outline" style="width: 100%;" onclick="openNewsModal('Program Kreativiti & Seni Hari Kanak-Kanak', '02 OKTOBER 2026', 'Kemeriahan Sambutan Hari Kanak-Kanak di Tadika Tunas Ria Bestari diwarnai dengan pelbagai persembahan pentas dan pameran lukisan murid. Aktiviti ini bertujuan membina keyakinan diri serta menghargai bakat seni si cilik.')">Baca Artikel</button>
+                            </div>
+                        </div>
+
+                        <div class="news-card">
+                            <img src="menu 3.jpeg" alt="Sukaneka" class="news-img" loading="lazy">
+                            <div class="news-content">
+                                <div class="news-date">20 SEPTEMBER 2026</div>
+                                <h3 class="news-title">Acara Sukaneka Tahunan Berjalan Ceria</h3>
+                                <p class="news-excerpt">Acara Sukaneka Tahunan telah berlangsung dengan meriah dengan pelbagai acaran menarik...</p>
+                                <button class="btn btn-outline" style="width: 100%;" onclick="openNewsModal('Acara Sukaneka Tahunan Berjalan Ceria', '20 SEPTEMBER 2026', 'Acara Sukaneka Tahunan Tadika Tunas Ria Bestari telah berlangsung dengan jayanya di padang rekreasi berdekatan. Acara ini melibatkan permainan sukaneka mesra keluarga yang mengeratkan hubungan ibu bapa dan anak-anak.')">Baca Artikel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Modal Baca Berita -->
+        <div class="lightbox" id="news-modal">
+            <div style="background: white; max-width: 600px; padding: 30px; border-radius: var(--radius-md); position: relative;">
+                <span style="position: absolute; top: 15px; right: 20px; font-size: 1.5rem; cursor: pointer;" onclick="closeNewsModal()">&times;</span>
+                <div id="modal-date" style="color: var(--color-deep-pink); font-size: 0.85rem; font-weight: 700; margin-bottom: 5px;"></div>
+                <h3 id="modal-title" style="font-size: 1.4rem; margin-bottom: 15px; color: var(--color-dark-brown);"></h3>
+                <p id="modal-body" style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.6;"></p>
+            </div>
+        </div>
+
+        <!-- ==========================================
+             PAGE 7: HUBUNGI KAMI & PENDAFTARAN
+        ========================================== -->
+        <section id="page-hubungi" class="page-view">
+            <section class="section-padding">
+                <div class="container">
+                    <div class="text-center">
+                        <span class="badge-tag">Daftar & Pertanyaan</span>
+                        <h2 class="section-title">Hubungi & Sertai Kami</h2>
+                        <p class="section-desc">Sila isi borang di bawah untuk pertanyaan kemasukan atau borang pendaftaran awal. Kami akan menghubungi anda secepat mungkin.</p>
+                    </div>
+
+                    <div class="grid-2" style="align-items: start;">
+                        <!-- Maklumat Hubungan & FAQ -->
+                        <div>
+                            <div style="background-color: var(--color-pastel-pink); padding: 30px; border-radius: var(--radius-md); margin-bottom: 30px;">
+                                <h3 style="margin-bottom: 20px; color: var(--color-dark-brown);">Maklumat Tadika</h3>
+                                <p style="margin-bottom: 12px;">📍 <strong>Alamat:</strong> No 12, Jalan Bestari 3/1, Taman Bestari, 47300 Petaling Jaya, Selangor</p>
+                                <p style="margin-bottom: 12px;">📞 <strong>Telefon:</strong> +60 12-345 6789 / +60 3-8000 1234</p>
+                                <p style="margin-bottom: 12px;">💬 <strong>WhatsApp:</strong> +60 12-345 6789</p>
+                                <p style="margin-bottom: 12px;">✉️ <strong>E-mel:</strong> info@tunasriabestari.edu.my</p>
+                                <p style="margin-bottom: 0;">⏰ <strong>Waktu Operasi:</strong> Isnin - Jumaat (7:30 AM - 6:00 PM)</p>
+                            </div>
+
+                            <!-- FAQ Accordion -->
+                            <h3 style="margin-bottom: 20px; color: var(--color-dark-brown);">Soalan Lazim (FAQ)</h3>
+                            <div class="faq-accordion">
+                                <div class="faq-item">
+                                    <button class="faq-header" onclick="toggleFaq(this)">Berapakah umur kanak-kanak yang diterima?</button>
+                                    <div class="faq-body">Kami menerima kanak-kanak berumur dari 4 hingga 6 tahun untuk program prasekolah harian.</div>
+                                </div>
+                                <div class="faq-item">
+                                    <button class="faq-header" onclick="toggleFaq(this)">Adakah tadika menyediakan perkhidmatan transit?</button>
+                                    <div class="faq-body">Ya, kami menyediakan perkhidmatan penjagaan transit separuh hari/sepanjang hari bagi ibu bapa yang bekerja.</div>
+                                </div>
+                                <div class="faq-item">
+                                    <button class="faq-header" onclick="toggleFaq(this)">Bagaimana cara membuat lawatan tadika?</button>
+                                    <div class="faq-body">Ibu bapa boleh mengisi borang pertanyaan di sebelah atau menghubungi kami terus menerusi WhatsApp untuk menetapkan masa lawatan.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Borang Pertanyaan & Pendaftaran -->
+                        <div class="form-container">
+                            <h3 style="margin-bottom: 20px; color: var(--color-dark-brown);">Borang Pertanyaan Pendaftaran</h3>
+                            
+                            <div class="alert-success" id="form-success-alert">
+                                Terima kasih! Mesej borang telah sedia. Mengalihkan anda ke WhatsApp...
+                            </div>
+
+                            <form id="registration-form" onsubmit="handleFormSubmit(event)">
+                                <div class="form-grid">
+                                    <div class="form-group full-width">
+                                        <label class="form-label" for="parent-name">Nama Penuh Ibu / Bapa / Penjaga *</label>
+                                        <input type="text" id="parent-name" class="form-control" placeholder="Contoh: Ahmad Bin Razali" required>
+                                        <span class="error-msg">Sila isi nama penuh anda.</span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-label" for="parent-phone">Nombor Telefon (WhatsApp) *</label>
+                                        <input type="tel" id="parent-phone" class="form-control" placeholder="Contoh: 0123456789" required>
+                                        <span class="error-msg">Sila isi nombor telefon yang sah.</span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-label" for="parent-email">Alamat E-mel</label>
+                                        <input type="email" id="parent-email" class="form-control" placeholder="nama@email.com">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-label" for="child-name">Nama Anak *</label>
+                                        <input type="text" id="child-name" class="form-control" placeholder="Nama anak anda" required>
+                                        <span class="error-msg">Sila isi nama anak.</span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-label" for="child-age">Umur Anak *</label>
+                                        <select id="child-age" class="form-control" required>
+                                            <option value="">-- Pilih Umur --</option>
+                                            <option value="4 Tahun">4 Tahun</option>
+                                            <option value="5 Tahun">5 Tahun</option>
+                                            <option value="6 Tahun">6 Tahun</option>
+                                        </select>
+                                        <span class="error-msg">Sila pilih umur anak.</span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-label" for="session-intake">Sesi Kemasukan *</label>
+                                        <select id="session-intake" class="form-control" required>
+                                            <option value="">-- Pilih Sesi --</option>
+                                            <option value="Sesi Pagi (8:00 AM - 12:00 PM)">Sesi Pagi</option>
+                                            <option value="Sesi Penuh / Transit (7:30 AM - 6:00 PM)">Sesi Penuh / Transit</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-label" for="program-choice">Program Diminati</label>
+                                        <select id="program-choice" class="form-control">
+                                            <option value="Prasekolah Standard">Prasekolah Standard</option>
+                                            <option value="Program Lesen Membaca">Program Lesen Membaca</option>
+                                            <option value="Seni & Kreativiti">Seni & Kreativiti</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group full-width">
+                                        <label class="form-label" for="additional-notes">Pertanyaan / Maklumat Tambahan</label>
+                                        <textarea id="additional-notes" class="form-control" rows="3" placeholder="Nyatakan sebarang pertanyaan lain..."></textarea>
+                                    </div>
+                                </div>
+
+                                <p style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 20px;">* Borang ini merupakan pertanyaan awal. Pengesahan pendaftaran tertakluk kepada kekosongan tempat tadika.</p>
+
+                                <button type="submit" class="btn btn-primary" style="width: 100%;">Hantar Pertanyaan Menerusi WhatsApp 📲</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <!-- Floating Buttons -->
+    <div class="floating-btn-container">
+        <a href="https://wa.me/60123456789?text=Hai%20Tadika%20Tunas%20Ria%20Bestari,%20saya%20ingin%20bertanya%20maklumat%20pendaftaran." target="_blank" class="float-btn btn-whatsapp" aria-label="WhatsApp Kami">💬</a>
+        <button class="float-btn btn-top" id="back-to-top" onclick="scrollToTop()" aria-label="Ke Atas">↑</button>
+    </div>
+
+    <!-- Lightbox Modal untuk Gambar -->
+    <div class="lightbox" id="image-lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <img src="" id="lightbox-img" alt="Paparan Besar">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Tadika Tunas Ria Bestari Logo" class="footer-logo-img">
+                        <span>TADIKA TUNAS RIA BESTARI</span>
+                    </div>
+                    <p class="footer-desc">Pusat pendidikan awal kanak-kanak yang berkualiti tinggi, ceria dan selamat. Membantu perkembangan minda dan sahsiah si cilik anda.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Pautan Pantas</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Laman Utama</a></li>
+                        <li><a href="#tentang">Tentang Kami</a></li>
+                        <li><a href="#program">Program Pembelajaran</a></li>
+                        <li><a href="#aktiviti">Aktiviti Tadika</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Maklumat</h4>
+                    <ul class="footer-links">
+                        <li><a href="#galeri">Galeri Gambar</a></li>
+                        <li><a href="#berita">Berita & Pengumuman</a></li>
+                        <li><a href="#hubungi">Soalan Lazim (FAQ)</a></li>
+                        <li><a href="#hubungi">Hubungi Kami</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Waktu Operasi</h4>
+                    <p style="color: #C0B2B7; font-size: 0.9rem; margin-bottom: 10px;">Isnin - Jumaat: 7:30 AM - 6:00 PM</p>
+                    <p style="color: #C0B2B7; font-size: 0.9rem;">Sabtu, Ahad & Cuti Umum: Tutup</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Tadika Tunas Ria Bestari. Hak Cipta Terelihara. Rekaan Website Tadika Moden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Vanilla Logic -->
+    <script>
+        // Konfigurasi Asas
+        const CONFIG = {
+            whatsappNumber: "60123456789" // Tukar nombor WhatsApp rasmi di sini
+        };
+
+        // SPA Navigation & Hash Router Handling
+        const routes = {
+            'home': { title: 'Laman Utama', id: 'page-home' },
+            'tentang': { title: 'Tentang Kami', id: 'page-tentang' },
+            'program': { title: 'Program Pembelajaran', id: 'page-program' },
+            'aktiviti': { title: 'Aktiviti Tadika', id: 'page-aktiviti' },
+            'galeri': { title: 'Galeri Gambar', id: 'page-galeri' },
+            'berita': { title: 'Berita & Pengumuman', id: 'page-berita' },
+            'hubungi': { title: 'Hubungi Kami & Pendaftaran', id: 'page-hubungi' }
+        };
+
+        function navigate() {
+            let hash = window.location.hash.substring(1) || 'home';
+            if (!routes[hash]) hash = 'home';
+
+            // Sembunyikan semua page view
+            document.querySelectorAll('.page-view').forEach(page => {
+                page.classList.remove('active');
+            });
+
+            // Tunjukkan page semasa
+            const currentPage = document.getElementById(routes[hash].id);
+            if (currentPage) {
+                currentPage.classList.add('active');
+            }
+
+            // Kemaskini Navigation Menu active state
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${hash}`) {
+                    link.classList.add('active');
+                }
+            });
+
+            // Kemaskini Breadcrumbs
+            const breadcrumbContainer = document.getElementById('breadcrumb-container');
+            const breadcrumbCurrent = document.getElementById('breadcrumb-current');
+            if (hash === 'home') {
+                breadcrumbContainer.style.display = 'none';
+            } else {
+                breadcrumbContainer.style.display = 'block';
+                breadcrumbCurrent.textContent = routes[hash].title;
+            }
+
+            // Kemaskini Meta Title
+            document.title = `${routes[hash].title} | Tadika Tunas Ria Bestari`;
+
+            // Close Mobile Menu if open
+            document.getElementById('nav-menu').classList.remove('active');
+
+            // Scroll to top upon page change
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        window.addEventListener('hashchange', navigate);
+        window.addEventListener('DOMContentLoaded', navigate);
+
+        // Mobile Hamburger Menu Toggle
+        const hamburgerBtn = document.getElementById('hamburger-btn');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburgerBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Gallery Filter System
+        function filterGallery(category) {
+            const items = document.querySelectorAll('.filter-item');
+            const filterBtns = document.querySelectorAll('.filter-btn');
+
+            filterBtns.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            items.forEach(item => {
+                if (category === 'all' || item.classList.contains(category)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Lightbox Handler
+        function openLightbox(src) {
+            const lightbox = document.getElementById('image-lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            lightboxImg.src = src;
+            lightbox.classList.add('active');
+        }
+
+        function closeLightbox() {
+            document.getElementById('image-lightbox').classList.remove('active');
+        }
+
+        // FAQ Accordion Handler
+        function toggleFaq(button) {
+            const faqItem = button.parentElement;
+            const isActive = faqItem.classList.contains('active');
+
+            // Tutup faq lain
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('active');
+                item.querySelector('.faq-body').style.maxHeight = null;
+            });
+
+            if (!isActive) {
+                faqItem.classList.add('active');
+                const body = faqItem.querySelector('.faq-body');
+                body.style.maxHeight = body.scrollHeight + "px";
+            }
+        }
+
+        // News Modal Handler
+        function openNewsModal(title, date, body) {
+            document.getElementById('modal-title').textContent = title;
+            document.getElementById('modal-date').textContent = date;
+            document.getElementById('modal-body').textContent = body;
+            document.getElementById('news-modal').classList.add('active');
+        }
+
+        function closeNewsModal() {
+            document.getElementById('news-modal').classList.remove('active');
+        }
+
+        // Form Submit & WhatsApp Auto Generation
+        function handleFormSubmit(e) {
+            e.preventDefault();
+
+            const parentName = document.getElementById('parent-name').value.trim();
+            const parentPhone = document.getElementById('parent-phone').value.trim();
+            const parentEmail = document.getElementById('parent-email').value.trim() || 'Tiada';
+            const childName = document.getElementById('child-name').value.trim();
+            const childAge = document.getElementById('child-age').value;
+            const sessionIntake = document.getElementById('session-intake').value;
+            const programChoice = document.getElementById('program-choice').value;
+            const additionalNotes = document.getElementById('additional-notes').value.trim() || 'Tiada';
+
+            // Format WhatsApp Message
+            const message = `*PERTANYAAN PENDAFTARAN TADIKA TUNAS RIA BESTARI*\n\n` +
+                `*Maklumat Ibu Bapa/Penjaga:*\n` +
+                `• Nama: ${parentName}\n` +
+                `• No. Tel: ${parentPhone}\n` +
+                `• E-mel: ${parentEmail}\n\n` +
+                `*Maklumat Anak:*\n` +
+                `• Nama Anak: ${childName}\n` +
+                `• Umur: ${childAge}\n` +
+                `• Sesi Kemasukan: ${sessionIntake}\n` +
+                `• Program Diminati: ${programChoice}\n\n` +
+                `*Nota / Pertanyaan Tambahan:*\n${additionalNotes}`;
+
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://wa.me/${CONFIG.whatsappNumber}?text=${encodedMessage}`;
+
+            // Tunjukkan mesej kejayaan
+            const alertBox = document.getElementById('form-success-alert');
+            alertBox.style.display = 'block';
+
+            setTimeout(() => {
+                window.open(whatsappUrl, '_blank');
+                alertBox.style.display = 'none';
+                document.getElementById('registration-form').reset();
+            }, 1500);
+        }
+
+        // Scroll to Top & Header Effects
+        const backToTopBtn = document.getElementById('back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('visible');
+            } else {
+                backToTopBtn.classList.remove('visible');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
